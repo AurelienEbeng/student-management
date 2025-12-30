@@ -97,3 +97,4 @@
 - ADO .NET
 
 # Entity Relationship Diagram
+<img width="853" height="473" alt="image" src="https://github.com/user-attachments/assets/717a2505-3cf2-4d11-98b9-ba01cda2f3a7" />
