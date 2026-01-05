@@ -64,6 +64,14 @@ namespace Fall_Project
             textBoxStName.ReadOnly = true;
             textBoxFinalGrade.Enabled = false;
 
+            if (mode == Modes.ADD)
+            {
+                textBoxFinalGrade.Enabled = false;
+                comboBoxCId.Enabled = true;
+                comboBoxProgId.Enabled = true;
+                comboBoxStId.Enabled = true;
+            }
+
             if (((mode == Modes.MODIFY) || (mode == Modes.GRADE)) && (c != null))
             {
                 comboBoxStId.SelectedValue = c[0].Cells["stId"].Value;
